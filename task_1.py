@@ -282,7 +282,7 @@ def second_file(file_name):
     # print(mem_usage(read_and_optimized))
     range_ln = 20
     for_graphs = ['color', 'color', 'askPrice', 'interiorColor', 'interiorColor', 'stockNum', 'askPrice']
-    plotting(file_name, optimized_dataset, [key for key in dataset.dtypes.keys()], for_graphs, chunk_size//10, range_ln)
+    plotting(file_name, optimized_dataset, [key for key in dataset.dtypes.keys()], for_graphs, chunk_size//10, 0, 15)
 
 def third_file(file_name):
     print(file_name)
@@ -308,8 +308,8 @@ def third_file(file_name):
     # print(mem_usage(read_and_optimized))
 
     for_graphs = ['AIRLINE', 'MONTH', 'DESTINATION_AIRPORT', 'DAY', 'DAY', 'SCHEDULED_TIME', 'DEPARTURE_DELAY']
-    plotting(file_name, optimized_dataset, [key for key in dataset.dtypes.keys()], for_graphs)
-
+    #plotting(file_name, optimized_dataset, [key for key in dataset.dtypes.keys()], for_graphs, 0, 15) # тут была ошибка ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    plotting(file_name, optimized_dataset, [key for key in dataset.dtypes.keys()], for_graphs, 100_000, 0, 15)
 def fourth_file(file_name):
     print(file_name)
     file_size = os.path.getsize(file_name)
