@@ -1,0 +1,1 @@
+{"pha": "category", "H": "float32", "diameter": "float32", "albedo": "float32", "diameter_sigma": "float32", "orbit_id": "category", "epoch": "float32", "epoch_mjd": "uint16", "epoch_cal": "float64", "equinox": "category", "e": "float32", "a": "float32", "q": "float32"}

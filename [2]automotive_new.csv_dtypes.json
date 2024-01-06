@@ -1,0 +1,1 @@
+{"vin": "category", "stockNum": "category", "firstSeen": "category", "lastSeen": "category", "msrp": "uint32", "askPrice": "uint32", "mileage": "uint32", "isNew": "bool", "color": "category", "interiorColor": "category", "brandName": "category", "modelName": "category", "dealerID": "uint16", "vf_ABS": "category", "vf_ActiveSafetySysNote": "category"}

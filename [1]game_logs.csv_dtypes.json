@@ -1,0 +1,1 @@
+{"date": "uint32", "number_of_game": "uint8", "day_of_week": "category", "v_name": "category", "v_league": "category", "v_game_number": "uint8", "h_name": "category", "h_league": "category", "h_game_number": "uint8", "v_score": "uint8"}
